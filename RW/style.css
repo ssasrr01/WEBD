@@ -1,0 +1,182 @@
+
+#section2{
+background-color:whitesmoke;
+}
+#section3{
+   background-color:#EEEEEE;
+   padding-bottom: 4rem;
+   padding-left: 2rem;
+   padding-right: 2rem;
+}
+
+.img1{
+    width: 90%;
+    height: 100%;
+    padding-left: 5%;
+    padding-top: 1%;
+}
+/* body{
+    background-color: black;
+} */
+h1{
+    text-align: center;
+  
+
+}
+
+hr {
+    border: solid #5C527F 2px;
+    border-bottom: none;
+    margin: 100px auto;
+    width: 35%;
+}
+.special{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.ch{
+    color: #7D0633;
+    font-size: 2rem;
+    margin-left: 25%;
+    
+}
+.ch1{
+    color: #7D0633;
+    font-size: 3rem;
+    margin-left: 17%;
+    margin-right: 17%;
+}
+.ch2{
+    color: #7D0633;
+    font-size: 3rem;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+            flex-wrap: wrap;
+}
+.hrs{
+    text-align: right;
+    margin-top: 5rem;
+    margin-right: 20%;
+}
+.days{
+    text-align: right;
+    margin-right: 17%;
+}
+
+.first{
+    height: 15rem;
+}
+.second{
+    height: 15rem;
+}
+.third{
+    height: 15rem;
+}
+.fourth{
+    height: 15rem;
+}
+
+.fifth{
+    height: 15rem;
+}
+.about{
+    width: 50%;
+    height: 80%;
+}
+.set{
+    text-align: center;
+}
+
+div.polaroid {
+    width: 18%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
+  .offer{
+    margin-top: 4rem;
+    padding-top: 2rem;
+  }
+  .lunch{
+        margin-right: 2rem;
+  }
+  .flip-card {
+    background-color: transparent;
+    width: 250px;
+    height: 300px;
+    perspective: 1000px;
+    padding-top: 2rem;
+
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #393E46;
+    color: white;
+  }
+  
+  .flip-card-back {
+    background-color: #FFBF86;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #4B5D67;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+  .post-img {
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 10px; */
+ }
+ 
+
+
+
+
+ /* .post-info h2{
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-top: 5px;
+ } */
