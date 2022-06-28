@@ -1,23 +1,41 @@
 
 #section2{
 background-color:whitesmoke;
+padding-bottom: 3rem;
 }
 #section3{
-   background-color:#EEEEEE;
+   /* background-color:#EEEEEE; */
+   /* background-color: #fef8e8; */
+   background: linear-gradient(155deg, #575858, #d18a1a, #9e9c98);
    padding-bottom: 4rem;
    padding-left: 2rem;
    padding-right: 2rem;
 }
-
+#section1{
+  background-color: whites;
+}
+#testimonials{
+  /* background-color: #9ca9ac; */
+  background: linear-gradient(155deg, #8d897c, #d8d1aa, #272623);
+  padding-bottom: 1rem;
+}
+#about{
+  padding-top: 3rem;
+}
+#details{
+  padding-top: 3rem;
+ 
+}
 .img1{
-    width: 90%;
-    height: 100%;
-    padding-left: 5%;
-    padding-top: 1%;
+    width: 100%;
+    height:100%;
+  
+    
 }
 /* body{
-    background-color: black;
+  background-color: #f783ac;
 } */
+
 h1{
     text-align: center;
   
@@ -25,10 +43,51 @@ h1{
 }
 
 hr {
-    border: solid #5C527F 2px;
+    border: solid #7f7252 2px;
     border-bottom: none;
     margin: 100px auto;
     width: 35%;
+}
+.abt{
+ 
+}
+.main{
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+  line-height: 2rem;
+  margin-top: 2rem;
+}
+.dine{
+    text-align: center;
+   
+    margin-bottom: 2rem;
+}
+.dines{
+  text-align: center;
+   
+}
+.home{
+    text-align: center;
+    margin-bottom: 2rem;
+    background-color: #B85C38;
+}
+.homes{
+  text-align: center;
+  background-color: #B85C38;
+}
+.reach{
+    text-align: center;
+   
+    margin-bottom: 2rem;
+}
+.reachs{
+  text-align: center;
+
+}
+.hr1{
+    width: 100%
+    
 }
 .special{
     padding-top: 2rem;
@@ -54,6 +113,56 @@ hr {
     display: flex;
     justify-content: space-between;
             flex-wrap: wrap;
+}
+.std{
+  text-align: Left;
+    margin-top: 5rem;
+    margin-left: 20%;
+}
+.srt{
+  text-align: left;
+  margin-left: 21%;
+}
+.ig{
+  height: 60%;
+  width: 60%;
+  margin-top: 12%;
+  /* border-radius: 100%; */
+  margin-left: 10%;
+}
+.rt{
+  color: whitesmoke;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.rt1{
+  color: whitesmoke;
+  text-align: center;
+  padding-top: 2rem;
+}
+.im{
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    height: 20%;
+    border-radius: 100%;
+  
+}
+.lt{
+  text-align:center;
+  color: whitesmoke;
+}
+.checked {
+  color: rgb(187, 129, 22);
+  
+}
+.star{
+  margin-top: 2%;
+  padding-left: 45%;
+  margin-bottom: 2%;
 }
 .hrs{
     text-align: right;
@@ -88,6 +197,9 @@ hr {
 .set{
     text-align: center;
 }
+/* .carl{
+  color: black;
+} */
 
 div.polaroid {
     width: 18%;
@@ -109,7 +221,7 @@ div.polaroid {
   }
   .flip-card {
     background-color: transparent;
-    width: 250px;
+    width: 300px;
     height: 300px;
     perspective: 1000px;
     padding-top: 2rem;
@@ -180,3 +292,225 @@ div.polaroid {
     font-size: 1.2rem;
     padding-top: 5px;
  } */
+ 
+ 
+ 
+.header {
+  background-color: #ebe0c2;
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color:#ebe0c2;
+}
+
+.header li a {
+  display: block;
+  padding: 20px 20px;
+  border-right: 1px solid #ebe0c2;
+  text-decoration: none;
+  color: #1B2430;
+}
+
+.header li a:hover,
+.header .menu-btn:hover {
+  background-color:white;
+}
+
+
+.header .logo {
+  display: block;
+  float: left;
+  font-size: 2em;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #1B2430;
+
+}
+
+/* menu */
+
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+/* menu icon */
+
+.header .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}
+
+.header .menu-icon .navicon {
+  background: #333;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 18px;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+  background: #333;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+  top: -5px;
+}
+
+/* menu btn */
+
+.header .menu-btn {
+  display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+  max-height: 240px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+  .header li {
+    float: left;
+  }
+  .header li a {
+    padding: 20px 30px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+}
+
+
+
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+
+* {
+  /* font-family: Roboto, sans-serif; */
+  padding: 0;
+  margin: 0;
+}
+.flexbox {
+  background: linear-gradient(155deg, #141515, #7b796d, #ded5b6);
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4rem;
+}
+
+.search {
+  margin: 20px;
+}
+
+.search > h3 {
+  font-weight: normal;
+}
+
+.search > h1,
+.search > h3 {
+  color: white;
+  margin-bottom: 15px;
+  text-shadow: 0 1px #0091c2;
+}
+
+.search > div {
+  display: inline-block;
+  position: relative;
+  filter: drop-shadow(0 1px #0091c2);
+}
+
+.search > div:after {
+  content: "";
+  background: white;
+  width: 4px;
+  height: 20px;
+  position: absolute;
+  top: 40px;
+  right: 2px;
+  transform: rotate(135deg);
+}
+
+.search > div > input {
+  color: white;
+  font-size: 16px;
+  background: transparent;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border: solid 3px white;
+  outline: none;
+  border-radius: 35px;
+  transition: width 0.5s;
+}
+
+.search > div > input::placeholder {
+  color: #efefef;
+  opacity: 0;
+  transition: opacity 150ms ease-out;
+}
+
+.search > div > input:focus::placeholder {
+  opacity: 1;
+}
+
+.search > div > input:focus,
+.search > div > input:not(:placeholder-shown) {
+  width: 250px;
+}
+.srh{
+  text-align: center;
+  margin-left: 27%;
+}
+.sr{
+  margin-left: 21%;
+}
