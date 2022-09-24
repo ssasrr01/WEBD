@@ -1,0 +1,484 @@
+*,
+*::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.hero {
+    height: 100%;
+    width: 100%;
+    /* background-image: linear-gradient(0deg, #A2C5FE 0%, #C2E9FC 100%); */
+    background-image: linear-gradient(130deg, #e75183 0%, #ffad06 100%);
+    /* background-image : url('images/background.webp'); */
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.form-box {
+    top: -20px;
+    width: 350px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    /* background: rgb(255, 255, 255,0.2); */
+    /* background: #fff; */
+
+    /* border: 1px solid #bbb; */
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(120deg, #ffad06 0%, #e75183 100%);
+    border-image-slice: 1;
+    border-radius: 8px;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.button-box {
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+    background: #c750211f;
+}
+
+.toggle-btn {
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+#btn {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    /* background: linear-gradient(to right, #ff105f, #ffad06); */
+    background: linear-gradient(to right, #2E3192, #1BFFFF);
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.social-icons {
+    display: flex;
+    margin: 30px auto;
+    align-items: center;
+    justify-content: center
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 0 12px;
+    /* box-shadow: 0 0 20px 0 #7f7f7f3d; */
+    box-shadow: 0 0 30px 0 #2E3192;
+    cursor: pointer;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.icon {
+    margin: 0 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    z-index: 2;
+    position: relative;
+    transition: .4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.icon .social-text {
+    position: absolute;
+    display: flex;
+    margin-left: 33px;
+    width: 130px;
+    top: 37px;
+    z-index: 1;
+    /* padding: 10px 18px; */
+    opacity: 0;
+    pointer-events: none;
+    transition: .4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.icon:hover .social-text {
+    opacity: 1;
+    pointer-events: auto;
+    transition: .4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.will-change{
+    padding-right: 3px;
+}
+
+.input-group {
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+    color: #fff;
+}
+
+.input-group .input-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-group .input-box i {
+    /* cursor: pointer; */
+    color: #999;
+}
+
+.input-field {
+    /* caret-color: #fff; */
+    color: rgb(255, 255, 255, .7);
+
+    width: 100%;
+    padding: 10px 0px;
+    margin: 7px 0;
+    border: 0 1px solid #999 0 0;
+    outline: none;
+    background: transparent;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    /* border-image: linear-gradient(to right, #aaa,#bbb); */
+    border-image: linear-gradient(to right, #ff105f, #ffad06);
+    border-image-slice: 1;
+    /* border-bottom-style: groove; */
+}
+
+.input-field:active,
+.input-field:focus {
+    transition: all .3s ease-in-out;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to right, #ffad06, #ff105f);
+    border-bottom-style: groove;
+    border-image-slice: 1;
+}
+
+/* Password */
+.toggle {
+    position: absolute;
+    top: 35%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background: url(./images/eye_show.png);
+    background-size: cover;
+    cursor: pointer;
+}
+
+.toggle_reg {
+    position: absolute;
+    top: 46%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background: url(./images/eye_show.png);
+    background-size: cover;
+    cursor: pointer;
+}
+
+.toggle.hide {
+    background: url(./images/eye_hide.png);
+    background-size: cover;
+}
+
+.toggle_reg.hide {
+    background: url(./images/eye_hide.png);
+    background-size: cover;
+}
+
+.submit-btn {
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #2E3192, #1BFFFF);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+.submit-btn:hover {
+    transform: translateX(1px);
+    transform: scale(1.02);
+    /* background: linear-gradient(10deg,#1BFFFF 0%, #2E3192 100%); */
+    background: linear-gradient(to left, #2E3192, #1BFFFF);
+}
+
+.checkbox {
+    margin: 30px 10px 30px auto;
+    cursor: pointer;
+}
+
+.check-remember {
+    letter-spacing: .5px;
+    color: #666;
+}
+
+span {
+    color: #777;
+    font-size: 12px;
+    bottom: 65px;
+    position: absolute;
+}
+
+#login {
+    left: 50px;
+}
+
+#register {
+    left: 450px;
+}
+
+
+/* Styling Nav */
+.nav {
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 0 2.8rem;
+    /* padding-top: 1rem; */
+}
+
+#MenuItems {
+    display: flex;
+    list-style: none;
+    gap: 2.8rem;
+}
+
+.lists {
+    display: flex;
+    gap: 2.8rem;
+    padding-top: .5rem;
+}
+
+.nav-list {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 300;
+    transition: all .3s;
+    /* color: #1bffffb7; */
+    color: #666;
+}
+
+.nav-list:hover {
+    color: #333;
+    transition: all .3s;
+    /* transform: translate(2px); */
+}
+
+.login_btn {
+    padding: .7rem 1.8rem .7rem 1.8rem;
+    border-radius: 9px;
+    color: #2E3192;
+    transition: all .3s;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: inherit;
+    background: linear-gradient(to right, #2E3192, #1BFFFF);
+}
+
+.login_btn:hover {
+    /* background: linear-gradient(to right, #1BFFFF, #2E3192); */
+    background: linear-gradient(to left, #2E3192, #1BFFFF);
+    transition: all .3s;
+    transform: scale(1.07);
+    /* color: #444; */
+}
+
+.logo-img {
+    height: 3.5rem;
+    border-radius: 10%;
+    /* justify-content: left; */
+}
+
+.forgot {
+    position: absolute;
+    bottom: -70px;
+    color: #1e8080;
+
+    /*💥 how to gradient in a text */
+    /* background: linear-gradient(to right, #2E3192, #18acac); */
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+    right: 1px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    font-weight: bold;
+}
+
+.forgot:hover {
+    color: #2E3192;
+    transition: all .3s;
+}
+
+.hidden {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+    z-index: -1;
+    transform: scale(-1.1);
+}
+
+
+/* email page css */
+.email-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center;    */
+    /* padding: 10px; */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    top: 200px;
+    position: absolute;
+    transition: .5s;
+    width: 400px;
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(120deg, #ffad06 0%, #e75183 100%);
+    border-image-slice: 1;
+    /* border-image-outset: 8px; */
+    border-radius: 8px;
+    padding: 30px;
+    overflow: hidden;
+}
+
+.email-group {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+
+}
+
+.text-box {
+    /* position: relative; */
+    margin-left: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    background: linear-gradient(to right, #2E3192, #18acac);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fg-login {
+    position: absolute;
+    bottom: 14px;
+    right: 15px;
+    color: #1e8080;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    font-weight: bold;
+}
+
+.fg-login:hover {
+    color: #0f1277;
+    transition: all .3s;
+}
+
+.email-group input {
+    margin-bottom: 8px;
+}
+
+.email-group .submit-btn {
+    margin-bottom: 30px;
+    /* padding-left: -10px; */
+}
+
+.success {
+    /* height: px; */
+    width: 325px;
+    margin-bottom: 180px;
+}
+
+.short {
+    height: 420px;
+    padding: 40px 0px 0px 40px;
+    top: 150px;
+}
+
+.sent-text {
+    /* position: relative; */
+    font-size: 18px;
+    top: 310px;
+    left: 110px;
+    background: linear-gradient(to right, #2E3192, #18acac);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.done {
+    /* position: relative; */
+    font-size: 28px;
+    top: 250px;
+    left: 125px;
+    background: linear-gradient(to right, #0a8270, #7cff6b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* input animations */
+.input-group .user-box {
+    position: relative;
+}
+
+.input-group .user-box label {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #777;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.email-group .user-box label {
+    position: absolute;
+    top: 90px;
+    left: 30px;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #777;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input-group .user-box input:focus~label,
+.input-group .user-box input:valid~label {
+    top: -10px;
+    left: 0;
+    color: #2E3192;
+    font-size: 12px;
+}
+
+.email-group .user-box input:focus~label,
+.email-group .user-box input:valid~label {
+    top: 70px;
+    left: 30px;
+    color: #2E3192;
+    font-size: 12px;
+}
