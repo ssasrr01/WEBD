@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn | SignUp</title>
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"> -->
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="hero">
+
+        <div class="nav">
+            <a href="#">
+                <img class="logo-img" src="images/logo.PNG" alt="logo">
+            </a>
+            <nav>
+                <ul id="MenuItems">
+                    <div class="lists">
+                        <li><a class="nav-list" href="#">Home</a></li>
+                        <li><a class="nav-list" href="#">About Us</a></li>
+                        <li><a class="nav-list" href="#">Error Page</a></li>
+                        <li><a class="nav-list" href="#">Contact</a></li>
+                    </div>
+                    <li><button class="login_btn">LogIn</button></li>
+                </ul>
+            </nav>
+        </div>
+
+        <section class="form-box hidden">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button id="login-btn" type="button" class="toggle-btn">LogIn</button>
+                <button id="register-btn" type="button" class="toggle-btn">Register</button>
+            </div>
+            <div class="social-icons">
+                <div class="icon google">
+                    <img class="google-img" src="images/google.png" alt="google icon">
+                    <span class="social-text"><div class="will-change">login</div> with google</span>
+                </div>
+                <div class="icon facebook">
+                    <img class="facebook-img" src="images/facebook.png" alt="facebook icon">
+                    <span class="social-text"><div class="will-change">login</div> with facebook</span>
+                </div>
+                <div class="icon github">
+                    <img class="github-img" src="images/github.png" alt="github icon">
+                    <span class="social-text"><div class="will-change">login</div> with github</span>
+                </div>
+            </div>
+            <form id="login" type="text" class="input-group">
+                <div class="user-box">
+                    <input type="text" class="input-field" placeholder="" autocomplete="off" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box user-box">
+                    <input type="password" class="input-field password" placeholder="" required>
+                    <label>Password</label>
+                    <div class="toggle"></div>
+                </div>
+                <input type="checkbox" class="checkbox"><span class="check-remember">Remember Password</span>
+                <button type="submit" class="submit-btn">Log In</button>
+                <a class="forgot" href="#">Forgot Password</a>
+            </form>
+            <form id="register" type="text" class="input-group">
+                <div class="user-box">
+                    <input type="text" class="input-field" placeholder="" autocomplete="off" required>
+                    <label>User Name</label>
+                </div>
+                <div class="user-box">
+                    <input type="email" class="input-field" placeholder="" autocomplete="off" required>
+                    <label>Email id</label>
+                </div>
+                <div class="input-box user-box">
+                    <input type="password" class="input-field password_reg" placeholder="" required>
+                    <label>Password</label>
+                    <div class="toggle_reg"></div>
+                </div>
+                <input type="checkbox" class="checkbox"><span>I agree to terms & conditions</span>
+                <button type="submit" class="submit-btn">Register</button>
+            </form>
+            <!-- <div class="notify">Be Aware CapsLock is ON !</div> -->
+        </section>
+    </div>
+
+    <section class="email-box hidden">
+        <div class="container">
+            <div class="sent-box hidden">
+                <img class="success" src="images/mail.png" alt="success pic" />
+                <span class="done">Yay! It's Done</span>
+                <span class="sent-text">Please Check Your Email</span>
+            </div>
+            <div class="to-hide hidden">
+                <div class="text-box">
+                    <p>Forgot Your Password</p>
+                </div>
+                <form id="fg-form" name="form1" type="text" class="email-group">
+                    <div class="user-box">
+                        <input id="fg-input" type="text" class="input-field" placeholder="" autocomplete="off" required>
+                        <label>Email id</label>
+                    </div>
+                    <button type="submit" class="fg-submit submit-btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js"
+        integrity="sha512-8pHNiqTlsrRjVD4A/3va++W1sMbUHwWxxRPWNyVlql3T+Hgfd81Qc6FC5WMXDC+tSauxxzp1tgiAvSKFu1qIlA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
