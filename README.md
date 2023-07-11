@@ -2,13 +2,36 @@
 
 A food ordering app with a REST API using MongoDB, Mongoose, Express and Stripe.
 
-[See Demo deployed on Render](https://node-travel-app.onrender.com/)
-<!-- 
-[See API documentation on Postman](https://documenter.getpostman.com/view/11993746/T17Ke7HH?version=latest) -->
+[Demo](https://boogiebites.onrender.com/)
 
 <p align="center">
   <a href="https://node-travel-app.onrender.com/">
     <img src="screenshot.png" alt="See Demo deployed on Render">
+  </a>
+</p>
+<p align="center">
+  <a href="https://boogiebites.onrender.com/">
+    <img src="/img/boogiebites1.png" alt="Cover Images">
+  </a>
+</p>
+<p align="center">
+  <a href="https://boogiebites.onrender.com/">
+    <img src="/img/boogiebites1.png" alt="Cover Images">
+  </a>
+</p>
+<p align="center">
+  <a href="https://boogiebites.onrender.com/">
+    <img src="/img/boogiebites1.png" alt="Cover Images">
+  </a>
+</p>
+<p align="center">
+  <a href="https://boogiebites.onrender.com/">
+    <img src="/img/boogiebites1.png" alt="Cover Images">
+  </a>
+</p>
+<p align="center">
+  <a href="https://boogiebites.onrender.com/">
+    <img src="/img/boogiebites1.png" alt="Cover Images">
   </a>
 </p>
 
