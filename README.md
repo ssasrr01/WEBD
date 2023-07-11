@@ -6,7 +6,7 @@ A food ordering app with a REST API using MongoDB, Mongoose, Express and Stripe.
 
 <p align="center">
   <a href="https://boogiebites.onrender.com/">
-    <img src="/img/boogiebites1.png" alt="Cover Images">
+    ![cover_image1](https://paste.pics/OR9TW)
   </a>
 </p>
 <p align="center">
