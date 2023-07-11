@@ -4,11 +4,9 @@ A food ordering app with a REST API using MongoDB, Mongoose, Express and Stripe.
 
 [Demo](https://boogiebites.onrender.com/)
 
-<p align="center">
-  <a href="https://boogiebites.onrender.com/">
-    ![cover_image1](https://i2.paste.pics/OR9TW.png)
-  </a>
-</p>
+![cover_image1](https://i2.paste.pics/OR9TW.png)
+<!--   </a>
+</p> -->
 <p align="center">
   <a href="https://boogiebites.onrender.com/">
     <img src="/img/boogiebites1.png" alt="Cover Images">
